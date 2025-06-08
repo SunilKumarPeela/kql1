@@ -71,5 +71,36 @@ ipconfig         # Display IP configuration details
 arp -a           # View the ARP cache to identify nearby network devices
 tasklist /svc    # List running tasks along with associated services
 net view         # Discover shared resources on the local network
+```
+## 💻 Phase 4: Ronnie McLovin - Intern Breach
 
+- **IP**: `10.10.0.19`  
+- **Host**: `A37A-DESKTOP`  
+- **Received Email From**: `valdorias_best_recruiter@gmail.com`  
+- **Timestamp**: `2024-01-10T08:48:16.000Z`  
+- **Link Domain**: `promotionrecruit.org`
 
+### 📥 File Details
+
+- **Downloaded File**: `Editorial_J0b_Openings_2024.docx`
+- **Dropped Payload**: `hacktivist_manifesto.ps1`  
+- **Drop Time**: `2024-01-10T08:55:51.000Z`
+
+### 🧠 Attacker Action
+
+- **plink.exe Executed**  
+  - **C2 IP**: `168.57.191.100`  
+  - **Credentials Used**:  
+    - Username: `$had0w`  
+    - Password: `thruthW!llS3tUfree`
+
+- **Scheduled Task Created**  
+  - **Time**: `2024-01-10T10:26:32.000Z`  
+
+- **Recon Commands Executed**:
+```bash
+whoami
+ipconfig
+arp -a
+tasklist /svc
+net view
