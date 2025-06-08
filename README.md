@@ -1,6 +1,6 @@
 # 🛡️ Valdorian Times Cybersecurity Breach: A Real-World SOC Investigation 🧠
 
-🎥 **[Watch Full Investigation Video (kql.mp4)](https://drive.google.com/file/d/1b-IJ2acGuVvpFf12_vAxgXWQosKQmrU3/view?usp=drive_link)**  
+🎥 **[Watch Full Investigation Video (kql.mp4)](https://drive.google.com/file/d/1b-IJ2acGuVvpFf12_vAxgXWQosKQmrU3/view?usp=sharing)**  
 > A realistic SOC simulation built with KQL, process analysis, phishing forensics, and file exfiltration tracking.
 
 ---
