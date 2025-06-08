@@ -61,3 +61,15 @@ Ronnie claims she never sent this email. Compromise suspected.
 ```bash
 schtasks /create /sc hourly /mo 5 /tn "Hacktivist Manifesto" /tr "powershell.exe -ExecutionPolicy Bypass -File C:\ProgramData\hacktivist_manifesto.ps1"
 
+### 🧪 Commands Executed by the Attacker
+
+After establishing a tunnel using `plink.exe`, the attacker executed the following commands on the compromised machine to perform network discovery and system enumeration:
+
+```bash
+whoami           # Identify the currently logged-in user
+ipconfig         # Display IP configuration details
+arp -a           # View the ARP cache to identify nearby network devices
+tasklist /svc    # List running tasks along with associated services
+net view         # Discover shared resources on the local network
+
+
