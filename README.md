@@ -72,6 +72,8 @@ arp -a           # View the ARP cache to identify nearby network devices
 tasklist /svc    # List running tasks along with associated services
 net view         # Discover shared resources on the local network
 ```
+---
+
 ## 💻 Phase 4: Ronnie McLovin - Intern Breach
 
 - **IP**: `10.10.0.19`  
