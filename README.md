@@ -157,9 +157,9 @@ Valdorian-Incident-Investigation/
 ---
 ## 🧠 Learnings
 
- **KQL in action**: Real queries across web, DNS, authentication & process logs  
- **Tracking PowerShell scripts and scheduled tasks**  
- **Detecting spear-phishing and content spoofing**  
- **Building incident timelines from metadata**  
- **Reconstructing the attack chain from internal telemetry**
+ *KQL in action*: Real queries across web, DNS, authentication & process logs  
+ *Tracking PowerShell scripts and scheduled tasks*
+ *Detecting spear-phishing and content spoofing*  
+ *Building incident timelines from metadata*
+ *Reconstructing the attack chain from internal telemetry*
 ---------------------------------------------------------------------------------------------------------------
